@@ -6,7 +6,7 @@ export default function GameCard (props) {
 
     return(
         <article className={classnames}>
-            <img src={props.gamePic} alt={props.game}/>
+            <img src={props.img} alt={props.game}/>
             <h3>{props.game}</h3>
             <div className="card-details">
                 <p>{props.viewers}</p>
