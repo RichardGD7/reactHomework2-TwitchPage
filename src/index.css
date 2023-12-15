@@ -1,0 +1,70 @@
+* {
+  font-family: 'Roboto Slab', serif;
+  background-color: rgb(48, 49, 60);
+  color: lightgray;
+  padding: 0;
+  margin: 0;
+}
+
+.app-container {
+  display: grid;
+  grid-template-columns: 13% auto;
+  min-height: 100vh;
+}
+
+
+.filter-card {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: space-between;
+  font-size: small;
+
+}
+
+.filter-card-desc {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+
+}
+
+.filter-card img {
+  border-radius: 50%;
+  max-width: 20%;
+  padding: 0 10px 0 0;
+}
+
+.game-list{
+  display: grid;
+  grid-template-columns:  auto auto auto auto auto;
+  height: fit-content;
+}
+
+.game-card{
+  margin: 20px;
+
+}
+
+.card-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.game-card img {
+  max-width: 280px;
+  max-height: 300px;
+}
+
+.Online {
+  color: green;
+}
+
+.Offline {
+  color: brown;
+}
+
+.new {
+color: blue;
+}
